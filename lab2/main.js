@@ -2,6 +2,7 @@ const fs = require('fs');
 const util = require('util');
 const readFile = util.promisify(fs.readFile);
 
+
 class MailSystem {
     write(name) {
         console.log('--write mail for ' + name + '--');
